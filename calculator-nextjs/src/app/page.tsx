@@ -143,12 +143,12 @@ export default function Home() {
 
     };
 
-    const calculateResult = () => {
+    const calculateResult = async () => {
         if (waitingForOperand || !operation) return;
         setIsEqualsClicked(true);
         try {
             // 调用gRPC后端服务
-            const response = client.calculate({expression});
+            const response = await client.calculate({expression});
             setCurrentValue(response.result);
         } catch (err) {
             // 提取错误消息中]后面的部分
@@ -161,7 +161,6 @@ export default function Home() {
             setCurrentValue('Error');
         }
     };
-
 
     return (
         <div className={styles.page}>
