@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae9575b0-9615-4123-ac1b-8c06f1c862fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calculator-nextjs/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator-nextjs/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buf.gen.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/v1/calculator.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator-nextjs/buf.gen.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator-nextjs/calculator.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,35 +30,38 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2vdKyl39ZLgjejrEk2Ra87EO4Ii" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build calculator-go.executor": "Debug",
-    "Go Test.TestCalculatorServer_BoundaryValues in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Calculate in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Calculate_AdditionalCases in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Calculate_BasicOperations in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Calculate_EdgeCases in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Calculate_FloatFormatting in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Calculate_InvalidExpressions in calculator-go/test.executor": "Run",
-    "Go Test.TestCalculatorServer_Concurrent in calculator-go/test.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "F:/calculator-demo/calculator-go",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "F:/calculator-go/main.go",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build calculator-go.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestCalculatorServer_BoundaryValues in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Calculate in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Calculate_AdditionalCases in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Calculate_BasicOperations in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Calculate_EdgeCases in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Calculate_FloatFormatting in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Calculate_InvalidExpressions in calculator-go/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculatorServer_Concurrent in calculator-go/test.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/calculator-demo/calculator-go&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;F:/calculator-go/main.go&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\calculator-go\core" />
